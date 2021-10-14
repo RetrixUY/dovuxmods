@@ -9,6 +9,9 @@ BOT Para la comunidad de discord de Dovux
 3.	Meter el bot al ds con los scopes: ``bot y applications.commands``
 4.	LLENAR EL .env: 
 	``DISCORD_TOKEN=...`` token del bot
+
 	``PERMS=...`` permisos de los roles creados, por defecto colocar (107478371904)
+	
 	``AUTO_ROLES_CHANNEL=...`` canal donde se colocan los auto-roles
+	
 	``ADMIN_ROLE=...`` rol necesario para usar el comando /add-role
