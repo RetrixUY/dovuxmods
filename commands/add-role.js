@@ -4,8 +4,6 @@ require('dotenv').config();
 const perms = BigInt(process.env.PERMS);
 const autoRolesChannel = process.env.AUTO_ROLES_CHANNEL;
 const adminRole = process.env.ADMIN_ROLE;
-//const perms = 107478371904n;
-//const autoRolesChannel = "862489947843854376";
 
 function randomColor(brightness){
     function randomChannel(brightness){
