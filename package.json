@@ -1,0 +1,22 @@
+{
+  "name": "dovuxmods",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.4.x",
+    "npm": "*"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "RetrixUY",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^10.0.0",
+    "numeral": "^2.0.6"
+  }
+}
